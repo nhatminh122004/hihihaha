@@ -18,22 +18,46 @@ const Footer = () => {
           <ul className='flex flex-col gap-1 text-gray-600'>
             <ul className='flex flex-col gap-1 text-gray-600'>
               <li>
-                <Link to='/' className='hover:text-black'>
+                <Link
+                  to='/'
+                  className='hover:text-black'
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: 'smooth' })
+                  }
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link to='/about' className='hover:text-black'>
+                <Link
+                  to='/about'
+                  className='hover:text-black'
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: 'smooth' })
+                  }
+                >
                   About us
                 </Link>
               </li>
               <li>
-                <Link to='/delivery' className='hover:text-black'>
-                  Delivery
+                <Link
+                  to='/contact'
+                  className='hover:text-black'
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: 'smooth' })
+                  }
+                >
+                  Contact
                 </Link>
               </li>
               <li>
-                <Link to='/privacy-policy' className='hover:text-black'>
+                <Link
+                  to='/privacy-policy'
+                  className='hover:text-black'
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: 'smooth' })
+                  }
+                >
                   Privacy policy
                 </Link>
               </li>
@@ -65,7 +89,7 @@ const Footer = () => {
       <div>
         <hr />
         <p className='py-5 text-base text-center'>
-          Copyright © 2024 @forever.com - All Rights Reserved
+          Copyright © 2024 @hihihaha.com - All Rights Reserved
         </p>
       </div>
     </div>
